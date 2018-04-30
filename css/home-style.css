@@ -4,6 +4,14 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
+.title-bar {
+  background-color: #ffffff !important;
+  color: #1da1f2;
+  border-bottom: 1px solid #a6b1b7; }
+
+.mobile_menu_margin {
+  margin-bottom: auto; }
+
 .header-margin {
   margin-top: 1rem;
   color: #c32aa3; }
