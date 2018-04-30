@@ -11,6 +11,27 @@ $snap-chat: #fffc00;
 $apple-mac: #a6b1b7;
 $dark-black: #333333;
 
+  $primary: #1779ba;
+  $secondary: #767676;
+  $success: #3adb76;
+  $warning: #ffae00;
+  $alert: #cc4b37;
+
+	// Foundation colors
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+
+
 //
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
@@ -29,9 +50,29 @@ body {
 
 .title-bar {
 
-	background-color: #ffffff !important;
-	color: $twitter;
+	background-color: $instagram !important;
+	color: #ffffff !important;
 	border-bottom: 1px solid $apple-mac;
+}
+
+.title-bar-title {
+
+ color: #ffffff;
+ text-align: center;
+
+ .menu_title_style {
+
+	 color: #fff;
+	 text-align: center;
+
+	 .menu_title_style:hover {
+
+		 cursor: pointer;
+
+	 }
+
+ }
+
 }
 
 .mobile_menu_margin {
@@ -105,6 +146,35 @@ body {
 // End of Navigation css
 
 // Right Body CSS Begins  Below
+
+.slider_style {
+	height: inherit;
+	background: #642B73;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #ffffff;
+
+
+	.text_slider {
+
+		padding-top: 8rem;
+		font-family: 'Abril Fatface', cursive;
+	}
+
+
+}
+
+.slider_button_style_right {
+
+   margin-left: 10rem;
+}
+
+.slider_button_style_left {
+
+	margin-right: 10rem;
+
+
+}
 
 .headline-type-style {
 

@@ -5,9 +5,18 @@ body {
   background-repeat: repeat-y; }
 
 .title-bar {
-  background-color: #ffffff !important;
-  color: #1da1f2;
+  background-color: #c32aa3 !important;
+  color: #ffffff !important;
   border-bottom: 1px solid #a6b1b7; }
+
+.title-bar-title {
+  color: #ffffff;
+  text-align: center; }
+  .title-bar-title .menu_title_style {
+    color: #fff;
+    text-align: center; }
+    .title-bar-title .menu_title_style .menu_title_style:hover {
+      cursor: pointer; }
 
 .mobile_menu_margin {
   margin-bottom: auto; }
@@ -47,6 +56,25 @@ body {
     .nav-header-margin .nav-item-spacing a {
       color: #c32aa3;
       font-family: 'Roboto', sans-serif; }
+
+.slider_style {
+  height: inherit;
+  background: #642B73;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C6426E, #642B73);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff; }
+  .slider_style .text_slider {
+    padding-top: 8rem;
+    font-family: 'Abril Fatface', cursive; }
+
+.slider_button_style_right {
+  margin-left: 10rem; }
+
+.slider_button_style_left {
+  margin-right: 10rem; }
 
 .headline-type-style {
   font-family: 'Abril Fatface', cursive; }

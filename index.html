@@ -12,11 +12,11 @@
      <link rel="stylesheet" href="scss/home-style.scss">
   </head>
   <body>
-    <div class="title-bar mobile_menu_margin color_style text-center" data-responsive-toggle="responsive-menu" data-hide-for="medium">
- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
- <div class="title-bar-title float-right">Menu</div>
+    <div class="title-bar" data-responsive-toggle="responsive-menu">
+ <!-- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> -->
+ <div class=" columns large-12 medium-12 small-12 title-bar-title"><p class="text-center menu_title_style h2" data-toggle="responsive-menu"> <i class="fas fa-bars"></i> Menu</p>
+ </div>
 </div>
-
 <div class="top-bar hide-for-medium hide-for-large" id="responsive-menu">
  <div class="top-bar-left">
    <ul class="dropdown menu" data-dropdown-menu>
@@ -41,7 +41,11 @@
  </div>
 </div>
 <!-- end of mobile nav menu -->
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+</div>
+
      <div class="expanded row">
+
         <div class="columns medium-2 large-2 hide-for-small-only sticky-container nav-header-margin" data-sticky-container>
            <div class="text-center">
               <i class="far fa-hand-peace fa-2x"></i>
@@ -88,6 +92,45 @@
               <h2 class="header-margin headline-type-style"> About <i class="far fa-hand-peace"></i> Kindness </h2>
            </div>
            <hr>
+           <div class="columns small-12 medium-12 large-12 orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <div class="expanded orbit-wrapper">
+              <div class="orbit-controls">
+                <button class="orbit-previous slider_button_style_left"><span class="show-for-sr slider_button_style_right">Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr slider_button_style_right">Next Slide</span>&#9654;&#xFE0E;</button>
+              </div>
+              <ul class="orbit-container">
+                <li class="is-active orbit-slide">
+                  <figure class="orbit-figure">
+                    <img class="orbit-image" src="img/love-hands.jpg" alt="Space">
+                    <figcaption class="orbit-caption">A website all about kindness</figcaption>
+                  </figure>
+                </li>
+                <li class="orbit-slide slider_style">
+                  <div class="slider_style">
+                    <h3 class="text-center text_slider">"It is under the greatest adversity that there exists the greatest potential for doing good,<br> both for oneself and others."</h3>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <figure class="orbit-figure">
+                    <img class="orbit-image" src="img/shell.jpg" alt="Space">
+                    <figcaption class="orbit-caption">Videos About mindfullness</figcaption>
+                  </figure>
+                </li>
+                <li class="orbit-slide">
+                  <figure class="orbit-figure">
+                    <img class="orbit-image" src="img/curls_and_friends.jpg" alt="Space">
+                    <figcaption class="orbit-caption">A good friend</figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <nav class="orbit-bullets">
+              <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+              <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+              <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+              <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            </nav>
+          </div>
            <div class="row">
              <div class="columns large-12 manifesto">
                <h4 class="definition">About :</h4>
