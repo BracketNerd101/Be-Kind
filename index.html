@@ -12,82 +12,40 @@
      <link rel="stylesheet" href="scss/home-style.scss">
   </head>
   <body>
-    <div class="title-bar" data-responsive-toggle="responsive-menu">
- <!-- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> -->
- <div class=" columns large-12 medium-12 small-12 title-bar-title"><p class="text-center menu_title_style h2" data-toggle="responsive-menu"> <i class="fas fa-bars"></i> Menu</p>
- </div>
-</div>
-<div class="top-bar hide-for-medium hide-for-large" id="responsive-menu">
- <div class="top-bar-left">
-   <ul class="dropdown menu" data-dropdown-menu>
-     <li class="menu-text">Site Title</li>
-     <li class="has-submenu">
-       <a href="#0">One</a>
-       <ul class="submenu menu vertical" data-submenu>
-         <li><a href="#0">One</a></li>
-         <li><a href="#0">Two</a></li>
-         <li><a href="#0">Three</a></li>
-       </ul>
-     </li>
-     <li><a href="#0">Two</a></li>
-     <li><a href="#0">Three</a></li>
-   </ul>
- </div>
- <div class="top-bar-right">
-   <ul class="menu">
-     <li><input type="search" placeholder="Search"></li>
-     <li><button type="button" class="button">Search</button></li>
-   </ul>
- </div>
-</div>
+
 <!-- end of mobile nav menu -->
 <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
 </div>
+<button type="button" class="button" data-toggle="offCanvasLeftSplit1">Open Left</button>
+<button type="button" class="button" data-toggle="offCanvasRightSplit2">Open Right</button>
 
+<div class="grid-x grid-margin-x">
+  <div class="cell small-6">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit1" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+      </div>
+      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
+        <p>I have nothing to do with the off-canvas on the right!</p>
+      </div>
+    </div>
+  </div>
+  <div class="cell small-6">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-absolute position-right" id="offCanvasRightSplit2" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+      </div>
+      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
+        <p>Im a unique off-canvas container all on my own!</p>
+      </div>
+    </div>
+  </div>
+</div>
      <div class="expanded row">
 
-        <div class="columns medium-2 large-2 hide-for-small-only sticky-container nav-header-margin" data-sticky-container>
-           <div class="text-center">
-              <i class="far fa-hand-peace fa-2x"></i>
-              <br><br>
-              <h6>Be Kind</h6>
-           </div>
-           <ul class="vertical text-cener menu accordion-menu nav-item-spacing menu-style" data-accordion-menu data-submenu-toggle="true">
-             <li><a href="#">Home</a></li>
-              <li>
-                 <a href="">Website link</a>
-                 <ul class="menu vertical nested">
-                    <li>
-                       <a href="#">Item 1A</a>
-                       <ul class="menu vertical nested menu-style">
-                          <li><a href="#">Item 1Ai</a></li>
-                          <li><a href="#">Item 1Aii</a></li>
-                          <li><a href="#">Item 1Aiii</a></li>
-                       </ul>
-                    </li>
-                    <li><a href="#">Item 1B</a></li>
-                    <li><a href="#">Item 1C</a></li>
-                 </ul>
-              </li>
-              <li>
-                 <a href="#">Videos</a>
-                 <ul class="menu vertical nested">
-                    <li><a href="#">Item 2A</a></li>
-                    <li><a href="#">Item 2B</a></li>
-                 </ul>
-              </li>
-              <li>
-                 <a href="#">Gallery</a>
-                 <ul class="menu vertical nested">
-                    <li><a href="#">Item 2A</a></li>
-                    <li><a href="#">Item 2B</a></li>
-                 </ul>
-              </li>
-           </ul>
-        </div>
         <!--left navigation container  -->
         <!--  Start of the right-body container -->
-        <div class="columns expanded large-10 meduim-9 small-12">
+        <div class="columns expanded large-12 meduim-12 small-12">
            <div class="columns large-12 text-center">
               <h2 class="header-margin headline-type-style"> About <i class="far fa-hand-peace"></i> Kindness </h2>
            </div>
@@ -113,7 +71,7 @@
                 <li class="orbit-slide">
                   <figure class="orbit-figure">
                     <img class="orbit-image" src="img/shell.jpg" alt="Space">
-                    <figcaption class="orbit-caption">Videos About mindfullness</figcaption>
+                    <figcaption class="orbit-caption">Videos About Mindfullness</figcaption>
                   </figure>
                 </li>
                 <li class="orbit-slide">
@@ -164,42 +122,6 @@
              <h3 class="text-center quote_banner_style">A walk on the beach is a good way to clear the mind.</h3>
 
            </div><!--end of banner container  -->
-
-           <div class="row small-up-1 medium-up-3 large-up-3" data-equalizer data-equalize-on="medium" id="test-eq">
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-                <img src="img/gym_friends.jpg" class="" alt="">
-              </div>
-              </div>
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-
-
-                <img src="img/sit_friends.jpg" class="" alt="">
-              </div>
-              </div>
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-                <img src="img/hug_friends.jpg" class="" alt="">
-                </div>
-              </div>
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-                <img src="img/sunset_friends.jpg" class="" alt="">
-                </div>
-              </div class="callout" data-equalizer-watch>
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-                <img src="img/wheel_friends.jpg" class="" alt="">
-              </div>
-              </div>
-              <div class="column column-block">
-                <div class="callout" data-equalizer-watch>
-                  <img src="img/winter_friends.jpg" class="" alt="">
-                </div>
-              </div>
-            </div>
-
         </div>
         <!-- end of right body container -->
      </div>
