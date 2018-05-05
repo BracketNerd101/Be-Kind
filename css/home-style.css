@@ -68,13 +68,16 @@ body {
   color: #ffffff; }
   .slider_style .text_slider {
     padding-top: 18rem;
-    font-family: 'Abril Fatface', cursive; }
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 6rem;
+    margin-right: 6rem; }
 
-.slider_button_style_right {
+.orbit-next {
+  margin-left: 6rem;
   margin-left: 10rem; }
 
 .slider_button_style_left {
-  margin-right: 10rem; }
+  margin-right: 6rem; }
 
 .headline-type-style {
   font-family: 'Abril Fatface', cursive; }
