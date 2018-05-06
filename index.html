@@ -12,36 +12,31 @@
      <link rel="stylesheet" href="scss/home-style.scss">
   </head>
   <body>
-
+    <div class="title-bar-title">
+       <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+    </div>
 <!-- end of mobile nav menu -->
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-</div>
-<button type="button" class="button" data-toggle="offCanvasLeftSplit1">Open Left</button>
-<button type="button" class="button" data-toggle="offCanvasRightSplit2">Open Right</button>
+        <div class="off-canvas align-center position-top" id="offCanvas" data-off-canvas>
 
-<div class="grid-x grid-margin-x">
-  <div class="cell small-6">
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit1" data-off-canvas>
-        <!-- Your menu or Off-canvas content goes here -->
-      </div>
-      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
-        <p>I have nothing to do with the off-canvas on the right!</p>
-      </div>
-    </div>
-  </div>
-  <div class="cell small-6">
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-absolute position-right" id="offCanvasRightSplit2" data-off-canvas>
-        <!-- Your menu or Off-canvas content goes here -->
-      </div>
-      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
-        <p>Im a unique off-canvas container all on my own!</p>
-      </div>
-    </div>
-  </div>
-</div>
-     <div class="expanded row">
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <div class="row column column-12 align-center expanded">
+          <ul class="align-center menu menu-margin-top">
+            <li><a href="#">Foundation</a></li>
+            <li><a href="#">Dot</a></li>
+            <li><a href="#">ZURB</a></li>
+            <li><a href="#">Com</a></li>
+            <li><a href="#">Slash</a></li>
+            <li><a href="#">Sites</a></li>
+          </ul>
+        </div>
+
+        </div>
+     <div class="expanded row off-canvas-content" data-off-canvas-content>
 
         <!--left navigation container  -->
         <!--  Start of the right-body container -->

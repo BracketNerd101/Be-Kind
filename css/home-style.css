@@ -4,6 +4,9 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
+.menu-margin-top {
+  margin-top: 5rem; }
+
 .title-bar {
   background-color: #c32aa3 !important;
   color: #ffffff !important;
