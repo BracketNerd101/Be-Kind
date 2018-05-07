@@ -49,46 +49,6 @@ body {
 }
 
 
-.menu-margin-top {
-
-  margin-top: 5rem;
-}
-
-.title-bar {
-
-	background-color: rgba(250, 250, 250, 0.4);
-	// color: #ffffff !important;
-	border-bottom: 1px solid $apple-mac;
-}
-
-.title-bar-title {
-
- color: #ffffff;
- text-align: center;
- position: fixed;
- z-index: 877776657564;
-
- .menu_text_size {
-
-   font-size: 1rem;
-   color: #ffffff;
- }
-
- .menu_title_style {
-
-	 color: #fff;
-	 text-align: center;
-
-	 .menu_title_style:hover {
-
-		 cursor: pointer;
-
-	 }
-
- }
-
-}
-
 .mobile_menu_margin {
 
 	margin-bottom: auto;

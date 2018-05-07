@@ -4,27 +4,6 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
-.menu-margin-top {
-  margin-top: 5rem; }
-
-.title-bar {
-  background-color: rgba(250, 250, 250, 0.4);
-  border-bottom: 1px solid #a6b1b7; }
-
-.title-bar-title {
-  color: #ffffff;
-  text-align: center;
-  position: fixed;
-  z-index: 877776657564; }
-  .title-bar-title .menu_text_size {
-    font-size: 1rem;
-    color: #ffffff; }
-  .title-bar-title .menu_title_style {
-    color: #fff;
-    text-align: center; }
-    .title-bar-title .menu_title_style .menu_title_style:hover {
-      cursor: pointer; }
-
 .mobile_menu_margin {
   margin-bottom: auto; }
 

@@ -10,26 +10,26 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
       <link rel="stylesheet" href="css/home-style.css">
       <link rel="stylesheet" href="scss/home-style.scss">
-      <link rel="stylesheet" href="/css/nav_style.css">
+      <link rel="stylesheet" href="css/nav_style.css">
+      <link rel="stylesheet" href="css/nav_style.css">
    </head>
    <body>
       <div class="title-bar-title title-bar row columns expanded">
-         <button type="button" class="hollow clear button menu_text_size" data-toggle="offCanvas"><i class="fa fa-bars"></i> Menu</button>
+         <button type="button" class="hollow clear button menu_text_size_color" data-toggle="offCanvasNestedOverlap"><i class="fas fa-hand-peace"></i> menu</button>
       </div>
       <!-- end of mobile nav menu -->
-      <div class="columns large-12 off-canvas position-top" id="offCanvas" data-off-canvas>
+      <div class="menu-centered menu_drop_styles columns large-12 off-canvas position-top" id="offCanvasNestedOverlap" data-off-canvas>
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <i class="fas fa-window-close"></i>
+    </button>
          <!-- Close button -->
-         <button class="close-button" aria-label="Close menu" type="button" data-close>
-         <span aria-hidden="true">&times;</span>
-         </button>
          <!-- Menu -->
-         <ul class="align-center menu menu-margin-top">
-            <li><a href="#">Foundation</a></li>
-            <li><a href="#">Dot</a></li>
-            <li><a href="#">ZURB</a></li>
-            <li><a href="#">Com</a></li>
-            <li><a href="#">Slash</a></li>
-            <li><a href="#">Sites</a></li>
+         <ul class="menu menu-centered menu-margin-top link_color_styles">
+            <li><a class="link_color_styles" href="#">Home</a></li>
+            <li><a class="link_color_styles" href="#">About</a></li>
+            <li><a class="link_color_styles" href="#">Videos</a></li>
+            <li><a class="link_color_styles" href="#">Quotes</a></li>
+            <li><a class="link_color_styles" href="#">Inspiration</a></li>
          </ul>
       </div>
       <div class="expanded row off-canvas-content" data-off-canvas-content>
@@ -37,7 +37,7 @@
          <!--  Start of the right-body container -->
          <div class="columns expanded large-12 meduim-12 small-12">
             <div class="columns large-12 text-center">
-               <h2 class="header-margin headline-type-style"> About <i class="far fa-hand-peace"></i> Kindness </h2>
+               <h2 class="header-margin headline-type-style" data-toggle="offCanvasNestedOverlap"> About <i class="far fa-hand-peace"></i> Kindness </h2>
             </div>
             <div class="columns small-12 medium-12 large-12 orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                <div class=" row expanded orbit-wrapper">
@@ -93,7 +93,7 @@
             </div>
             <!-- end of row -->
             <div class="columns large-12 medium-12 small-12 banner-standard-style">
-               <h3 class="text-center quote_banner_style">A good friend will always see the good in you</h3>
+               <h3 class="text-center quote_banner_style">A good friend will always be there for you.</h3>
             </div>
             <!--end of banner container  -->
             <div class="columns large-12 medium-12 small-12 quote_banner_gradient_style">
