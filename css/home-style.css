@@ -76,6 +76,7 @@ body {
   width: 100% vw; }
   .banner-standard-style .quote_banner_style {
     margin-top: 7rem;
+    height: inherit;
     color: #ffffff;
     font-size: 3rem;
     font-family: 'Abril Fatface', cursive; }
@@ -100,7 +101,7 @@ body {
     margin-top: 8.2rem;
     color: #bd081c;
     font-size: 3rem;
-    font-family: 'Abril Fatface', cursive; }
+    font-family: 'Roboto', sans-serif; }
   .banner-standard-style-3 .margin-banner-style {
     margin-bottom: 8rem; }
 
@@ -134,12 +135,12 @@ body {
   font-family: 'Abril Fatface', cursive; }
   .quote_banner_gradient_style .text-banner-style {
     color: #ffffff;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 14rem;
     font-size: 2.6rem; }
 
 .banner-standard-style-lama {
-  height: 37rem;
+  height: inherit;
   margin-top: auto;
   margin-bottom: auto;
   background: #56CCF2;
@@ -149,11 +150,12 @@ body {
   background: linear-gradient(to right, #2F80ED, #56CCF2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
-  font-family: 'Abril Fatface', cursive; }
+  font-family: 'Roboto', sans-serif; }
   .banner-standard-style-lama .text-banner-style {
     color: #ffffff;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 14rem;
+    margin-bottom: 10rem;
     font-size: 2.6rem; }
 
 .banner-standard-style-skate-life {
@@ -165,7 +167,7 @@ body {
     margin-top: 12rem;
     color: #bd081c;
     font-size: 3rem;
-    font-family: 'Abril Fatface', cursive; }
+    font-family: 'Roboto', sans-serif; }
 
 .banner-standard-style-peacefullness {
   margin-bottom: auto;
@@ -176,6 +178,6 @@ body {
     margin-top: 12rem;
     color: #1da1f2;
     font-size: 3rem;
-    font-family: 'Abril Fatface', cursive; }
+    font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=home-style.css.map */
