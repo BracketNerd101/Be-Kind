@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif !important;
     color: #fefefe;
     font-size: 1.5rem; }
+    .menu-margin-top .link_color_styles .etched-text {
+      text-shadow: 0 2px white;
+      font-weight: bold;
+      color: #b8bec5; }
 
 .title-bar {
   background-color: #fafafa; }
@@ -15,7 +19,7 @@
   z-index: 10; }
   .title-bar-title .menu_text_size_color {
     font-size: 1.2rem;
-    color: #db4437; }
+    color: #333333; }
   .title-bar-title .menu_title_style {
     color: #8a8a8a;
     text-align: center; }
@@ -30,11 +34,11 @@
 .menu_drop_styles {
   color: #c32aa3;
   padding-top: 4rem;
-  background: #7474BF;
+  background: #000000;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+  background: -webkit-linear-gradient(to right, #434343, #000000);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #348AC7, #7474BF);
+  background: linear-gradient(to right, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .menu_drop_styles .fa-window-close {
     color: #fefefe; }

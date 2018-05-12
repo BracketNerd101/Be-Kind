@@ -48,6 +48,37 @@ body {
 
 }
 
+.intro_banner_style {
+
+	width: 100vw;
+	height: 48rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #00b09b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+	font-family: 'Abril Fatface', cursive;
+
+	.top_styles {
+
+		margin-top: 5rem;
+	}
+
+	.latin_style {
+     font-family: 'Roboto' , sans-serif;
+
+		 .etched-text {
+			text-shadow: 0 2px white;
+			font-size: 1.5rem;
+			color: #ffffff;
+
+      }
+
+	}
+
+}
+
 
 .mobile_menu_margin {
 
@@ -121,23 +152,6 @@ body {
 
 // Right Body CSS Begins  Below
 
-.slider_style {
-	height: inherit;
-	background: #642B73;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: #ffffff;
-
-
-	.text_slider {
-
-		padding-top: 18rem;
-		font-family: 'Abril Fatface', cursive;
-		margin-left: 6rem;
-		margin-right: 6rem;
-
-	}
-}
 
 .orbit-next {
 	margin-left: 6rem;
@@ -160,10 +174,9 @@ body {
 .banner-standard-style {
 
 	margin-bottom: auto;
-	margin-top: 7rem;
 	background: url(../img/girlfriends.jpg) center / cover no-repeat;
-	height: 30rem;
-	width: 100%vw;
+	height: 45rem;
+	width: 100vw;
 
 
 	.quote_banner_style {
