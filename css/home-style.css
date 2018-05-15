@@ -4,6 +4,27 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
+.card-container-intros {
+  background-color: #fafafa; }
+  .card-container-intros .top_margin_style_space {
+    margin-top: 10rem;
+    margin-bottom: 10rem; }
+  .card-container-intros .gradient_card_style_quo {
+    background-color: #fefefe;
+    color: #4285f4; }
+  .card-container-intros .gradient_card_style_vid {
+    background-color: #fefefe;
+    color: #ff0000; }
+  .card-container-intros .gradient_card_style_about {
+    background-color: #fefefe; }
+    .card-container-intros .gradient_card_style_about .etched-text {
+      text-shadow: 0 2px white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b8bec5; }
+    .card-container-intros .gradient_card_style_about .about_margin_top {
+      padding-top: 3rem; }
+
 .intro_banner_style {
   width: 100vw;
   height: 48rem;

@@ -48,6 +48,50 @@ body {
 
 }
 
+.card-container-intros {
+
+		background-color: #fafafa;
+
+		.top_margin_style_space {
+
+			margin-top: 10rem;
+			margin-bottom: 10rem;
+		}
+
+		.gradient_card_style_quo {
+
+			background-color: $white;
+			color: $google;
+
+		}
+
+		.gradient_card_style_vid {
+
+			background-color: $white;
+			color: $youtube;
+
+		}
+
+		.gradient_card_style_about {
+
+			background-color: $white;
+					.etched-text {
+		  text-shadow: 0 2px white;
+		  font-size: 1.5rem;
+		  font-weight: bold;
+		  color: #b8bec5;
+		}
+
+			.about_margin_top {
+
+				padding-top: 3rem;
+			}
+
+		}
+
+}
+
+
 .intro_banner_style {
 
 	width: 100vw;
