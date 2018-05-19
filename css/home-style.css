@@ -4,32 +4,11 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
-.card-container-intros {
-  background-color: #fafafa; }
-  .card-container-intros .top_margin_style_space {
-    margin-top: 10rem;
-    margin-bottom: 10rem; }
-  .card-container-intros .gradient_card_style_quo {
-    background-color: #fefefe;
-    color: #4285f4; }
-  .card-container-intros .gradient_card_style_vid {
-    background-color: #fefefe;
-    color: #ff0000; }
-  .card-container-intros .gradient_card_style_about {
-    background-color: #fefefe; }
-    .card-container-intros .gradient_card_style_about .etched-text {
-      text-shadow: 0 2px white;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #b8bec5; }
-    .card-container-intros .gradient_card_style_about .about_margin_top {
-      padding-top: 3rem; }
-
 .intro_banner_style {
   width: 100vw;
   height: 48rem;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 5rem;
   background: #00b09b;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
@@ -46,6 +25,47 @@ body {
       text-shadow: 0 2px white;
       font-size: 1.5rem;
       color: #ffffff; }
+
+.card-container-intros {
+  background-color: #fafafa;
+  height: inherit; }
+  .card-container-intros .top_margin_style_space {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+  .card-container-intros .about_margin_top {
+    margin-bottom: 4rem; }
+    .card-container-intros .about_margin_top .text_style_learn {
+      font-family: 'Roboto' , sans-serif;
+      color: #8a8a8a; }
+  .card-container-intros .gradient_card_style_quo {
+    background-color: #fefefe;
+    color: #4285f4; }
+    .card-container-intros .gradient_card_style_quo .etched-text {
+      text-shadow: 0 2px white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b8bec5;
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important; }
+  .card-container-intros .gradient_card_style_vid {
+    background-color: #fefefe;
+    color: #ff0000; }
+    .card-container-intros .gradient_card_style_vid .etched-text {
+      text-shadow: 0 2px white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b8bec5;
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important; }
+  .card-container-intros .gradient_card_style_about {
+    background-color: #fefefe; }
+    .card-container-intros .gradient_card_style_about .etched-text {
+      text-shadow: 0 2px white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b8bec5;
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important; }
 
 .mobile_menu_margin {
   margin-bottom: auto; }

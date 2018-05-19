@@ -48,56 +48,12 @@ body {
 
 }
 
-.card-container-intros {
-
-		background-color: #fafafa;
-
-		.top_margin_style_space {
-
-			margin-top: 10rem;
-			margin-bottom: 10rem;
-		}
-
-		.gradient_card_style_quo {
-
-			background-color: $white;
-			color: $google;
-
-		}
-
-		.gradient_card_style_vid {
-
-			background-color: $white;
-			color: $youtube;
-
-		}
-
-		.gradient_card_style_about {
-
-			background-color: $white;
-					.etched-text {
-		  text-shadow: 0 2px white;
-		  font-size: 1.5rem;
-		  font-weight: bold;
-		  color: #b8bec5;
-		}
-
-			.about_margin_top {
-
-				padding-top: 3rem;
-			}
-
-		}
-
-}
-
-
 .intro_banner_style {
 
 	width: 100vw;
 	height: 48rem;
 	margin-top: auto;
-	margin-bottom: auto;
+	margin-bottom: 5rem;
 	background: #00b09b;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -123,6 +79,78 @@ body {
 
 }
 
+.card-container-intros {
+
+		background-color: #fafafa;
+		height: inherit;
+
+
+		.top_margin_style_space {
+
+			margin-top: 8rem;
+			margin-bottom: 8rem;
+		}
+
+
+		.about_margin_top {
+
+			margin-bottom: 4rem;
+
+			.text_style_learn {
+
+			font-family: 'Roboto' , sans-serif;
+			color: $dark-gray;
+		}
+	}
+
+		.gradient_card_style_quo {
+
+			background-color: $white;
+			color: $google;
+
+			.etched-text {
+			text-shadow: 0 2px white;
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #b8bec5;
+			margin-top: 5rem !important;
+			margin-bottom: 5rem !important;
+
+   }
+
+}
+
+		.gradient_card_style_vid {
+
+			background-color: $white;
+			color: $youtube;
+
+			.etched-text {
+			text-shadow: 0 2px white;
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #b8bec5;
+			margin-top: 5rem !important;
+			margin-bottom: 5rem !important;
+
+    }
+}
+
+		.gradient_card_style_about {
+
+			background-color: $white;
+
+					.etched-text {
+		  text-shadow: 0 2px white;
+		  font-size: 1.5rem;
+		  font-weight: bold;
+		  color: #b8bec5;
+			margin-top: 5rem !important;
+			margin-bottom: 5rem !important;
+		}
+
+	}
+}
 
 .mobile_menu_margin {
 
