@@ -63,6 +63,12 @@ body {
 	.top_styles {
 
 		margin-top: 5rem;
+
+	}
+
+	.bottom_styles {
+
+		margin-bottom: 5rem;
 	}
 
 	.latin_style {
@@ -99,22 +105,23 @@ body {
 		background-color: #fafafa;
 		height: inherit;
 
+		.card_copy_color {
 
-		.top_margin_style_space {
+			color: $dark-gray;
+		}
+     .top_margin_style_space {
 
 			margin-top: 8rem;
 			margin-bottom: 8rem;
 		}
-
-
-		.about_margin_top {
+      .about_margin_top {
 
 			margin-bottom: 4rem;
 
 			.text_style_learn {
 
 			font-family: 'Roboto' , sans-serif;
-			color: $dark-gray;
+			color: #333;
 		}
 	}
 

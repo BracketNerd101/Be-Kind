@@ -19,6 +19,8 @@ body {
   font-family: 'Abril Fatface', cursive; }
   .intro_banner_style .top_styles {
     margin-top: 5rem; }
+  .intro_banner_style .bottom_styles {
+    margin-bottom: 5rem; }
   .intro_banner_style .latin_style {
     font-family: 'Roboto' , sans-serif; }
     .intro_banner_style .latin_style .etched-text {
@@ -36,6 +38,8 @@ body {
 .card-container-intros {
   background-color: #fafafa;
   height: inherit; }
+  .card-container-intros .card_copy_color {
+    color: #8a8a8a; }
   .card-container-intros .top_margin_style_space {
     margin-top: 8rem;
     margin-bottom: 8rem; }
@@ -43,7 +47,7 @@ body {
     margin-bottom: 4rem; }
     .card-container-intros .about_margin_top .text_style_learn {
       font-family: 'Roboto' , sans-serif;
-      color: #8a8a8a; }
+      color: #333; }
   .card-container-intros .gradient_card_style_quo {
     background-color: #fefefe;
     color: #4285f4; }
