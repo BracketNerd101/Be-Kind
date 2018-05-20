@@ -51,7 +51,7 @@ body {
 .intro_banner_style {
 
 	width: 100vw;
-	height: 48rem;
+	height: inherit;
 	margin-top: auto;
 	margin-bottom: 5rem;
 	background: #00b09b;  /* fallback for old browsers */
@@ -79,7 +79,20 @@ body {
 
 }
 
+.intro_green_about_card {
 
+	font-family: 'Roboto' , sans-serif;
+	color: $dark-gray;
+	background-color: #ffffff;
+
+	.header_background_style {
+
+		background-color: #ffffff;
+
+
+	}
+
+}
 
 .card-container-intros {
 
