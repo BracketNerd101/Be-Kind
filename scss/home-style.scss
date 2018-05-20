@@ -244,19 +244,29 @@ body {
 
 // End of Navigation css
 
-// Right Body CSS Begins  Below
+.goal_section {
 
+height: inherit;
+padding-top: 5rem;
+padding-bottom: 5rem;
 
-.orbit-next {
-	margin-left: 6rem;
+.goal_section_image {
 
-
-   margin-left: 10rem;
 
 }
 
-.slider_button_style_left {
-	margin-right: 6rem;
+.goal_quote {
+
+	.etched-text {
+	 text-shadow: 0 2px white;
+	 font-size: 3rem;
+	 color: $dark-gray;
+	 text-align: center;
+
+	 }
+
+
+     }
 
 }
 

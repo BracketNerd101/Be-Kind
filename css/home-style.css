@@ -117,12 +117,15 @@ body {
       color: #c32aa3;
       font-family: 'Roboto', sans-serif; }
 
-.orbit-next {
-  margin-left: 6rem;
-  margin-left: 10rem; }
-
-.slider_button_style_left {
-  margin-right: 6rem; }
+.goal_section {
+  height: inherit;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  .goal_section .goal_quote .etched-text {
+    text-shadow: 0 2px white;
+    font-size: 3rem;
+    color: #8a8a8a;
+    text-align: center; }
 
 .headline-type-style {
   font-family: 'Abril Fatface', cursive; }
