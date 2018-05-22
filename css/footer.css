@@ -1,13 +1,32 @@
 
+.footer_container {
 
-.footer_style {
+   background-color: #fafafa;
+   height: inherit;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.footer_style_text {
 
+color: #333;
+font-size: 0.9rem;
 
-  color: #333;
+}
 
+.footer_styles {
+
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+
+.child_flex {
+
+  justify-content: center;
+  align-self: center;
 }
 
 .align_center_styles {
 
-  text-align: center;
+
 }
