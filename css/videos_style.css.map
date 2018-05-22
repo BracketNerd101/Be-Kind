@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAiCQ,2EAAmE;AAQ3E,kBAAmB;EAEjB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,oBAAoB;EACjC,KAAK,EA1CK,OAAO;;AA8CnB,eAAgB;EACZ,MAAM,EAAE,OAAO;EACf,WAAW,EAAE,IAAI",
+"sources": ["../scss/videos_style.scss"],
 "names": [],
 "file": "videos_style.css"
 }

@@ -119,13 +119,33 @@ body {
 
 .goal_section {
   height: inherit;
-  padding-top: 5rem;
-  padding-bottom: 5rem; }
-  .goal_section .goal_quote .etched-text {
-    text-shadow: 0 2px white;
-    font-size: 3rem;
-    color: #8a8a8a;
-    text-align: center; }
+  padding-top: auto;
+  padding-bottom: auto; }
+  .goal_section .goal_section_image {
+    background: url(../img/smile_red.jpg) center/cover no-repeat;
+    height: 35rem;
+    background-size: cover; }
+  .goal_section .goal_quote {
+    height: 35rem; }
+    .goal_section .goal_quote .text_margin_styles {
+      margin-top: 10rem;
+      margin-bottom: 10.5rem; }
+    .goal_section .goal_quote .quote_center_style {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #8a8a8a;
+      font-size: 3rem; }
+    .goal_section .goal_quote .goal_center_flex_style {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .goal_section .goal_quote .etched-text {
+      text-shadow: 0 2px white;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      color: #8a8a8a;
+      text-align: center; }
 
 .headline-type-style {
   font-family: 'Abril Fatface', cursive; }

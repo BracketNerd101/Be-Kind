@@ -246,29 +246,55 @@ body {
 
 .goal_section {
 
-height: inherit;
-padding-top: 5rem;
-padding-bottom: 5rem;
+	height: inherit;
+	padding-top: auto;
+	padding-bottom: auto;
 
 .goal_section_image {
 
+	background: url(../img/smile_red.jpg) center / cover no-repeat;
+	height: 35rem;
+	background-size: cover;
 
 }
 
 .goal_quote {
 
+	height: 35rem;
+
+	.text_margin_styles {
+
+		margin-top: 10rem;
+		margin-bottom: 10.5rem;
+	}
+
+	.quote_center_style {
+
+		display: flex;
+	  justify-content: center;
+	  align-items: center;
+		color: $dark-gray;
+		font-size: 3rem;
+	}
+
+  .goal_center_flex_style {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+	}
+
 	.etched-text {
 	 text-shadow: 0 2px white;
-	 font-size: 3rem;
+	 margin-top: 1.5rem;
+	 font-size: 1rem;
 	 color: $dark-gray;
 	 text-align: center;
 
 	 }
-
-
-     }
-
+  }
 }
+
 
 .headline-type-style {
 
