@@ -31,5 +31,25 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
+
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Roboto', sans-serif;
+
 
 //
+
+.video_intro_style {
+
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: $instagram;
+
+}
+
+.video_sections {
+    height: inherit;
+    padding-top: 6rem;
+}

@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto");
+.video_intro_style {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #c32aa3; }
 
+.video_sections {
+  height: inherit;
+  padding-top: 6rem; }
 
 /*# sourceMappingURL=videos_style.css.map */
