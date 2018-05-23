@@ -147,6 +147,21 @@ body {
       color: #8a8a8a;
       text-align: center; }
 
+.video_section {
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 6rem; }
+  .video_section .etched-text {
+    text-shadow: 0 2px white;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    color: #8a8a8a;
+    text-align: center; }
+  .video_section .videos_centered_btn {
+    border-radius: 0px;
+    align-content: center;
+    padding-top: 3rem; }
+
 .headline-type-style {
   font-family: 'Abril Fatface', cursive; }
 

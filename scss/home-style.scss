@@ -295,6 +295,30 @@ body {
   }
 }
 
+.video_section {
+	height: inherit;
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+
+	.etched-text {
+	 text-shadow: 0 2px white;
+	 margin-top: 1.5rem;
+	 font-size: 3rem;
+	 color: $dark-gray;
+	 text-align: center;
+
+	 }
+
+	.videos_centered_btn {
+
+	border-radius: 0px;
+	align-content: center;
+	padding-top: 3rem;
+
+	}
+}
+
+
 
 .headline-type-style {
 
