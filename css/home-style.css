@@ -4,6 +4,18 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
+.welcome_banner {
+  height: inherit;
+  margin-bottom: inherit;
+  background-image: url("..img/country-quilt.png");
+  background-repeat: repeat-y; }
+  .welcome_banner .content_welcome {
+    padding-top: 8rem;
+    padding-top: 8rem;
+    align-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; }
+
 .intro_banner_style {
   width: 100vw;
   height: inherit;
