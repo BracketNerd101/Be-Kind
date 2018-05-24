@@ -53,22 +53,27 @@ body {
 
 height: inherit;
 margin-bottom: auto;
-padding-bottom: 5rem;
 z-index: 3;
+
+.top_styles {
+
+	margin-top: 5rem;
+}
 
 .welcome_bg {
 
-	background: url('..img/welcome_quilt.png');
+	background: url('../img/hex.png');
+	background-repeat: repeat-x repeat-y;
 }
 
 
 .content_welcome {
 
 	padding-top: 8rem;
-	padding-top: 8rem;
-	align-content: center;
+	padding-bottom: 12rem;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	color: $dark-gray;
 
  }
 }
