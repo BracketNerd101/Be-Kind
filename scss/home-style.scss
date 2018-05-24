@@ -52,10 +52,14 @@ body {
 .welcome_banner {
 
 height: inherit;
+margin-bottom: auto;
+padding-bottom: 5rem;
+z-index: 3;
 
-margin-bottom: inherit;
-background-image: url("..img/country-quilt.png");
-background-repeat: repeat-y;
+.welcome_bg {
+
+	background: url('..img/welcome_quilt.png');
+}
 
 
 .content_welcome {
