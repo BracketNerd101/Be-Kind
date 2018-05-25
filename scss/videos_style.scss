@@ -39,13 +39,17 @@ $white: #fefefe;
 
 //
 
+body {
+  background-color: $success;
+}
+
 .video_intro_style {
 
   margin-top: 10rem;
   margin-bottom: 5rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: $instagram;
+  color: $white;
 
 }
 
