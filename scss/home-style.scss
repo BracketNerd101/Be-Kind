@@ -64,7 +64,6 @@ body {
 
 .wow { visibility: hidden; }
 
-
 .welcome_banner {
 
 height: inherit;
@@ -85,8 +84,8 @@ z-index: 3;
 
 .content_welcome {
 
-	padding-top: 8rem;
-	padding-bottom: 12rem;
+	padding-top: 12rem;
+	padding-bottom: 10rem;
 	text-align: center;
 	font-family: 'Heebo', sans-serif;
 	color: $success;

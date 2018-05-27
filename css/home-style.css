@@ -21,8 +21,8 @@ body {
     background: url("../img/hex.png");
     background-repeat: repeat-x repeat-y; }
   .welcome_banner .content_welcome {
-    padding-top: 8rem;
-    padding-bottom: 12rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     text-align: center;
     font-family: 'Heebo', sans-serif;
     color: #3adb76; }
