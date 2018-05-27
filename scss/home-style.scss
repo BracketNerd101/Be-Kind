@@ -94,6 +94,23 @@ z-index: 3;
   color: #ffffff;
 	font-family: 'Abril Fatface', cursive;
 
+	.dropdown_styles {
+
+		color: $black;
+		font-family: 'Roboto', sans-serif;
+		font-size: 2rem;
+		// background-color: transparent;
+
+	}
+
+	.translation_button_styles {
+
+		color: $black;
+		font-family: 'Roboto', sans-serif !important;
+		// background-color: transparent;
+
+	}
+
 	.top_styles {
 
 		margin-top: 5rem;
@@ -364,7 +381,7 @@ z-index: 3;
 	margin-bottom: auto;
 	background: url(../img/girlfriends.jpg) center / cover no-repeat;
 	height: 45rem;
-	
+
 
 
 	.quote_banner_style {

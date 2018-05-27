@@ -34,6 +34,13 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
   font-family: 'Abril Fatface', cursive; }
+  .intro_banner_style .dropdown_styles {
+    color: #0a0a0a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem; }
+  .intro_banner_style .translation_button_styles {
+    color: #0a0a0a;
+    font-family: 'Roboto', sans-serif !important; }
   .intro_banner_style .top_styles {
     margin-top: 5rem; }
   .intro_banner_style .bottom_styles {
