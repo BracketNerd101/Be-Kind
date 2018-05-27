@@ -8,6 +8,9 @@ body {
   background-image: image("..img/grey_floral.png");
   background-repeat: repeat-y; }
 
+.wow {
+  visibility: hidden; }
+
 .welcome_banner {
   height: inherit;
   margin-bottom: auto;
