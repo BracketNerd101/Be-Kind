@@ -35,13 +35,24 @@ $white: #fefefe;
 //
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
+// Google Font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:800');
+ //  Google Font
+@import url('https://fonts.googleapis.com/css?family=Cantarell:700i');
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:800');
 
 // font-family: 'Abril Fatface', cursive;
 // font-family: 'Roboto', sans-serif;
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Open Sans', sans-serif;
+// font-family: 'Cantarell', sans-serif;
+
+// font-family: 'Bowlby One SC', cursive;
+// font-family: 'Heebo', sans-serif;
 
 
 body {
@@ -76,9 +87,16 @@ z-index: 3;
 	padding-top: 8rem;
 	padding-bottom: 12rem;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: $dark-gray;
+	font-family: 'Heebo', sans-serif;
+	color: $success;
 
+	.header_welcome_font_style {
+
+		font-family: 'Heebo', sans-serif;
+		color: $success;
+
+
+	}
  }
 }
 
@@ -130,10 +148,8 @@ z-index: 3;
 			font-size: 1.5rem;
 			color: #ffffff;
 
-      }
-
+    }
 	}
-
 }
 
 .intro_green_about_card {
@@ -148,7 +164,6 @@ z-index: 3;
 
 
 	}
-
 }
 
 .card-container-intros {
@@ -173,6 +188,8 @@ z-index: 3;
 
 			font-family: 'Roboto' , sans-serif;
 			color: #333;
+			font-size: 1.7rem;
+			font-family: 'Cantarell', sans-serif;
 		}
 	}
 
@@ -183,6 +200,7 @@ z-index: 3;
 
 			.etched-text {
 			text-shadow: 0 2px white;
+			font-family: 'Montserrat', sans-serif;
 			font-size: 1.5rem;
 			font-weight: bold;
 			color: #b8bec5;
@@ -200,6 +218,7 @@ z-index: 3;
 
 			.etched-text {
 			text-shadow: 0 2px white;
+			font-family: 'Montserrat', sans-serif;
 			font-size: 1.5rem;
 			font-weight: bold;
 			color: #b8bec5;
@@ -215,6 +234,7 @@ z-index: 3;
 
 					.etched-text {
 		  text-shadow: 0 2px white;
+			font-family: 'Montserrat', sans-serif;
 		  font-size: 1.5rem;
 		  font-weight: bold;
 		  color: #b8bec5;
@@ -338,7 +358,8 @@ z-index: 3;
 	.etched-text {
 	 text-shadow: 0 2px white;
 	 margin-top: 1.5rem;
-	 font-size: 1rem;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 1.3rem;
 	 color: $dark-gray;
 	 text-align: center;
 
@@ -351,14 +372,23 @@ z-index: 3;
 	padding-top: 4rem;
 	padding-bottom: 6rem;
 
+	.video_home_styles {
+
+		font-size: 1.6rem;
+		margin-bottom: 4rem;
+		font-family: 'Cantarell', sans-serif;
+
+	}
+
 	.etched-text {
 	 text-shadow: 0 2px white;
 	 margin-top: 1.5rem;
 	 font-size: 3rem;
 	 color: $dark-gray;
 	 text-align: center;
+	 font-family: 'Cantarell', sans-serif;
 
-	 }
+	}
 
 	.videos_centered_btn {
 
@@ -382,8 +412,6 @@ z-index: 3;
 	background: url(../img/girlfriends.jpg) center / cover no-repeat;
 	height: 45rem;
 
-
-
 	.quote_banner_style {
 
 		margin-top: 7rem;
@@ -397,11 +425,9 @@ z-index: 3;
      margin-bottom: 8rem;
 
 	}
-
 }
 
 .banner-standard-style-2 {
-
 	margin-bottom: auto;
 	margin-top: 7rem;
 	background: url(../img/wedding.jpg) center / cover no-repeat;
@@ -412,7 +438,6 @@ z-index: 3;
      margin-bottom: 8rem;
 
 	}
-
 }
 
 .banner-standard-style-3 {
@@ -435,7 +460,6 @@ z-index: 3;
      margin-bottom: 8rem;
 
 	}
-
 }
 
 .banner-standard-style-4 {
@@ -453,14 +477,12 @@ z-index: 3;
 
 .definition {
 	font-family: 'Abril Fatface', cursive;
-
 }
 
 .dictionary-title {
 
 	font-family: 'Roboto', sans-serif;
   margin-top: 3.1;
-
 }
 
 .quote_banner_gradient_style {
@@ -480,10 +502,8 @@ z-index: 3;
   	font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
 		font-size: 2.6rem;
-
 	}
 }
-
 .banner-standard-style-lama {
 
 	height: inherit;
@@ -492,7 +512,6 @@ z-index: 3;
 	background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 
@@ -502,13 +521,10 @@ z-index: 3;
   	font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
     margin-bottom: 10rem;
-
 		font-size: 2.6rem;
 
 	}
-
 }
-
 .banner-standard-style-skate-life {
 
 	margin-bottom: auto;
@@ -541,5 +557,4 @@ z-index: 3;
 		font-family: 'Roboto', sans-serif;
 
 	}
-
 }

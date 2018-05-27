@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:800");
+@import url("https://fonts.googleapis.com/css?family=Cantarell:700i");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
+@import url("https://fonts.googleapis.com/css?family=Heebo:800");
 body {
   font-size: 17px;
   background-image: image("..img/grey_floral.png");
@@ -18,8 +21,11 @@ body {
     padding-top: 8rem;
     padding-bottom: 12rem;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #8a8a8a; }
+    font-family: 'Heebo', sans-serif;
+    color: #3adb76; }
+    .welcome_banner .content_welcome .header_welcome_font_style {
+      font-family: 'Heebo', sans-serif;
+      color: #3adb76; }
 
 .intro_banner_style {
   width: 100vw;
@@ -71,12 +77,15 @@ body {
     margin-bottom: 4rem; }
     .card-container-intros .about_margin_top .text_style_learn {
       font-family: 'Roboto' , sans-serif;
-      color: #333; }
+      color: #333;
+      font-size: 1.7rem;
+      font-family: 'Cantarell', sans-serif; }
   .card-container-intros .gradient_card_style_quo {
     background-color: #fefefe;
     color: #4285f4; }
     .card-container-intros .gradient_card_style_quo .etched-text {
       text-shadow: 0 2px white;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
       font-weight: bold;
       color: #b8bec5;
@@ -87,6 +96,7 @@ body {
     color: #ff0000; }
     .card-container-intros .gradient_card_style_vid .etched-text {
       text-shadow: 0 2px white;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
       font-weight: bold;
       color: #b8bec5;
@@ -96,6 +106,7 @@ body {
     background-color: #fefefe; }
     .card-container-intros .gradient_card_style_about .etched-text {
       text-shadow: 0 2px white;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
       font-weight: bold;
       color: #b8bec5;
@@ -167,7 +178,8 @@ body {
     .goal_section .goal_quote .etched-text {
       text-shadow: 0 2px white;
       margin-top: 1.5rem;
-      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
       color: #8a8a8a;
       text-align: center; }
 
@@ -175,12 +187,17 @@ body {
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 6rem; }
+  .video_section .video_home_styles {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    font-family: 'Cantarell', sans-serif; }
   .video_section .etched-text {
     text-shadow: 0 2px white;
     margin-top: 1.5rem;
     font-size: 3rem;
     color: #8a8a8a;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Cantarell', sans-serif; }
   .video_section .videos_centered_btn {
     border-radius: 0px;
     align-content: center;
