@@ -60,7 +60,6 @@ body {
 	font-size: 17px;
 	 background-image: image('..img/grey_floral.png');
 	 background-repeat: repeat-y;
-
 }
 
 
@@ -73,6 +72,7 @@ z-index: 3;
 .top_styles {
 
 	margin-top: 5rem;
+
 }
 
 .welcome_bg {
@@ -80,7 +80,6 @@ z-index: 3;
 	background: url('../img/hex.png');
 	background-repeat: repeat-x repeat-y;
 }
-
 
 .content_welcome {
 
@@ -94,7 +93,6 @@ z-index: 3;
 
 		font-family: 'Heebo', sans-serif;
 		color: $success;
-
 
 	}
  }
@@ -161,8 +159,6 @@ z-index: 3;
 	.header_background_style {
 
 		background-color: #ffffff;
-
-
 	}
 }
 
@@ -186,10 +182,8 @@ z-index: 3;
 
 			.text_style_learn {
 
-			font-family: 'Roboto' , sans-serif;
-			color: #333;
-			font-size: 1.7rem;
-			font-family: 'Cantarell', sans-serif;
+			color: $instagram;
+			font-family: 'Heebo', sans-serif;
 		}
 	}
 
@@ -232,7 +226,7 @@ z-index: 3;
 
 			background-color: $white;
 
-					.etched-text {
+			.etched-text {
 		  text-shadow: 0 2px white;
 			font-family: 'Montserrat', sans-serif;
 		  font-size: 1.5rem;
@@ -374,9 +368,9 @@ z-index: 3;
 
 	.video_home_styles {
 
-		font-size: 1.6rem;
+		font-size: 1.2rem;
 		margin-bottom: 4rem;
-		font-family: 'Cantarell', sans-serif;
+		font-family: 'Heebo', sans-serif;
 
 	}
 
@@ -384,9 +378,9 @@ z-index: 3;
 	 text-shadow: 0 2px white;
 	 margin-top: 1.5rem;
 	 font-size: 3rem;
-	 color: $dark-gray;
+	 color: $google;
 	 text-align: center;
-	 font-family: 'Cantarell', sans-serif;
+	 font-family: 'Heebo', sans-serif;
 
 	}
 

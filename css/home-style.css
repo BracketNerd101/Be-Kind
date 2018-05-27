@@ -76,10 +76,8 @@ body {
   .card-container-intros .about_margin_top {
     margin-bottom: 4rem; }
     .card-container-intros .about_margin_top .text_style_learn {
-      font-family: 'Roboto' , sans-serif;
-      color: #333;
-      font-size: 1.7rem;
-      font-family: 'Cantarell', sans-serif; }
+      color: #c32aa3;
+      font-family: 'Heebo', sans-serif; }
   .card-container-intros .gradient_card_style_quo {
     background-color: #fefefe;
     color: #4285f4; }
@@ -188,16 +186,16 @@ body {
   padding-top: 4rem;
   padding-bottom: 6rem; }
   .video_section .video_home_styles {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom: 4rem;
-    font-family: 'Cantarell', sans-serif; }
+    font-family: 'Heebo', sans-serif; }
   .video_section .etched-text {
     text-shadow: 0 2px white;
     margin-top: 1.5rem;
     font-size: 3rem;
-    color: #8a8a8a;
+    color: #4285f4;
     text-align: center;
-    font-family: 'Cantarell', sans-serif; }
+    font-family: 'Heebo', sans-serif; }
   .video_section .videos_centered_btn {
     border-radius: 0px;
     align-content: center;
