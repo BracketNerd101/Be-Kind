@@ -161,10 +161,14 @@ body {
     background: url(../img/smile_red.jpg) center/cover no-repeat;
     height: 35rem;
     background-size: cover; }
+  .goal_section .goal_inspire_image {
+    background: url(../img/senior_couple_bw.jpg) center/cover no-repeat;
+    height: 35rem;
+    background-size: cover; }
   .goal_section .goal_quote {
     height: 35rem; }
     .goal_section .goal_quote .text_margin_styles {
-      margin-top: 10rem;
+      margin-top: 4rem;
       margin-bottom: 10.5rem; }
     .goal_section .goal_quote .quote_center_style {
       display: flex;
