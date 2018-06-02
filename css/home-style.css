@@ -176,6 +176,8 @@ body {
       align-items: center;
       color: #8a8a8a;
       font-size: 3rem; }
+    .goal_section .goal_quote .quote_icon_color {
+      color: #333333; }
     .goal_section .goal_quote .goal_center_flex_style {
       display: flex;
       justify-content: center;
