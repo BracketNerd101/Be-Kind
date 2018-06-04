@@ -4,6 +4,25 @@
   background: url(../img/skate_kid.jpg) center/cover no-repeat;
   height: 39rem; }
 
+.banner-standard-style-suess {
+  height: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #FF416C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; }
+  .banner-standard-style-suess .text-banner-style {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+    font-size: 2.6rem; }
+
 .banner-standard-style-lama {
   height: inherit;
   margin-top: auto;
