@@ -16,20 +16,19 @@ body {
   height: inherit;
   padding-top: 9rem;
   margin-bottom: -1rem;
-  margin-top: auto; }
-  .intro_container_style_retro .welcome_forum_card_style {
-    height: 30rem;
-    margin-top: 5rem;
-    margin-bottom: 4rem; }
-    .intro_container_style_retro .welcome_forum_card_style .card_color_bg_style_intro_red {
-      background-color: #c32aa3;
-      height: 25rem; }
-    .intro_container_style_retro .welcome_forum_card_style .card_color_bg_style_intro_green {
-      background-color: #db4437;
-      height: 25rem; }
-    .intro_container_style_retro .welcome_forum_card_style .card_color_bg_style_intro_purple {
-      background-color: #1779ba;
-      height: 25rem; }
+  margin-top: auto;
+  background: url(../img/piggy_back.jpg) center/cover no-repeat;
+  height: 45rem;
+  background-size: cover; }
+  .intro_container_style_retro .flag_callout_intro {
+    height: 46rem;
+    margin-top: -5rem;
+    background-color: rgba(0, 255, 0, 0.4);
+    color: #fefefe;
+    margin-right: 10rem; }
+    .intro_container_style_retro .flag_callout_intro .flag_content {
+      padding-top: 10rem;
+      font-family: 'Heebo', sans-serif; }
 
 .welcome_banner {
   height: inherit;
@@ -55,13 +54,8 @@ body {
   height: inherit;
   margin-top: auto;
   margin-bottom: 5rem;
-  background: #00b09b;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #96c93d, #00b09b);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #00b09b;
   font-family: 'Abril Fatface', cursive; }
   .intro_banner_style .dropdown_styles {
     color: #0a0a0a;
@@ -94,13 +88,15 @@ body {
   .card-container-intros .card_copy_color {
     color: #8a8a8a; }
   .card-container-intros .top_margin_style_space {
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-bottom: 8rem; }
   .card-container-intros .about_margin_top {
-    margin-bottom: 4rem; }
+    margin-bottom: 2rem;
+    margin-top: 10rem; }
     .card-container-intros .about_margin_top .text_style_learn {
       color: #c32aa3;
-      font-family: 'Heebo', sans-serif; }
+      font-family: 'Heebo', sans-serif;
+      margin-top: 12rem; }
   .card-container-intros .gradient_card_style_quo {
     background-color: #fefefe;
     color: #4285f4; }
@@ -110,7 +106,7 @@ body {
       font-size: 1.5rem;
       font-weight: bold;
       color: #b8bec5;
-      margin-top: 5rem !important;
+      margin-top: 2rem !important;
       margin-bottom: 5rem !important; }
   .card-container-intros .gradient_card_style_vid {
     background-color: #fefefe;
