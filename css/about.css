@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:800");
+@import url("https://fonts.googleapis.com/css?family=Cantarell:700i");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
+@import url("https://fonts.googleapis.com/css?family=Heebo:800");
+.intro_about_style_banner {
+  background: url(../img/piggy_back.jpg) center/cover no-repeat;
+  height: 45rem;
+  background-size: cover; }
+
+.about_center_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8a8a8a;
+  font-size: 3rem; }
+
+.about_icon_color {
+  color: #c32aa3; }
+
+.about_center_flex_style {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.about_quote {
+  height: 35rem; }
+  .about_quote .text_margin_styles {
+    margin-top: 12rem;
+    margin-bottom: 10.5rem; }
+
+/*# sourceMappingURL=about.css.map */

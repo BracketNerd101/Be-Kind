@@ -56,47 +56,8 @@ $white: #fefefe;
 // font-family: 'Heebo', sans-serif;
 
 .intro_about_style_banner {
-
 background: url(../img/piggy_back.jpg) center / cover no-repeat;
 height: 45rem;
 background-size: cover;
-
-}
-
-
-.about_center_style {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $dark-gray;
-  font-size: 3rem;
-}
-
-.about_icon_color {
-
-   color: $instagram;
-
-}
-
-.about_center_flex_style {
-  margin-top: 5rem;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-
-
-.about_quote {
-
-	height: 35rem;
-
-	.text_margin_styles {
-
-		margin-top: 12rem;
-		margin-bottom: 10.5rem;
-	}
 
 }
