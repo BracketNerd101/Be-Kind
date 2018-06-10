@@ -1,5 +1,4 @@
 // Color Mixins
-
 $black: #000000;
 $twitter: #1da1f2;
 $youtube: #ff0000;
@@ -10,154 +9,131 @@ $google-plus: #db4437;
 $snap-chat: #fffc00;
 $apple-mac: #a6b1b7;
 $dark-black: #333333;
-
 $primary: #1779ba;
 $secondary: #767676;
 $success: #3adb76;
 $warning: #ffae00;
 $alert: #cc4b37;
-
-	// Foundation colors
-
+// Foundation colors
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-
 //
-
 .banner-standard-style-4 {
-
 	margin-bottom: auto;
 	margin-top: auto;
 	background: url(../img/skate_kid.jpg) center / cover no-repeat;
 	height: 39rem;
-
 }
 
 .banner-standard-style-suess {
-
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-	background: #FF416C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #FF416C;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
-
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }
 
 .banner-standard-style-lama {
-
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-	background: #56CCF2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #56CCF2;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2F80ED, #56CCF2);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
-
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }
 
 .banner-standard-style-hope {
-
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-  background: #283c86;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+	background: #283c86;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #45a247, #283c86);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #45a247, #283c86);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
-
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }
+
 .banner-standard-style-happiness {
-
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-  background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+	background: #c0392b;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #8e44ad, #c0392b);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
-
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }
-
 
 .banner-standard-style-friend {
-
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-  background: #396afc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #396afc;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2948ff, #396afc);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
-
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }

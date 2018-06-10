@@ -1,5 +1,4 @@
 // Color Mixins
-
 $black: #000000;
 $twitter: #1da1f2;
 $youtube: #ff0000;
@@ -10,131 +9,96 @@ $google-plus: #db4437;
 $snap-chat: #fffc00;
 $apple-mac: #a6b1b7;
 $dark-black: #333333;
-
 $primary: #1779ba;
 $secondary: #767676;
 $success: #3adb76;
 $warning: #ffae00;
 $alert: #cc4b37;
-
-	// Foundation colors
-
+// Foundation colors
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-
-
 //
-
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
 // Google Font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:800');
- //  Google Font
+//  Google Font
 @import url('https://fonts.googleapis.com/css?family=Cantarell:700i');
-
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
-
 @import url('https://fonts.googleapis.com/css?family=Heebo:800');
-
 // font-family: 'Abril Fatface', cursive;
 // font-family: 'Roboto', sans-serif;
-
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Cantarell', sans-serif;
-
 // font-family: 'Bowlby One SC', cursive;
 // font-family: 'Heebo', sans-serif;
-
-
 body {
-
 	font-size: 17px;
-	 background-image: image('..img/grey_floral.png');
-	 background-repeat: repeat-y;
+	background-image: image('..img/grey_floral.png');
+	background-repeat: repeat-y;
 }
 
-.wow { visibility: hidden; }
+.wow {
+	visibility: hidden;
+}
 
 .intro_container_style_retro {
-
 	width: 100%;
 	height: inherit;
 	padding-top: 9rem;
 	margin-bottom: -1rem;
 	margin-top: auto;
-
 	background: url(../img/piggy_back.jpg) center / cover no-repeat;
 	height: 45rem;
 	background-size: cover;
-
 	.flag_callout_intro {
-
 		height: 46rem;
 		margin-top: -5rem;
 		background-color: rgba(0, 0, 0, 0.4);
 		color: $white;
-
 		.flag_content {
-
 			padding-top: 10rem;
 			font-family: 'Heebo', sans-serif;
-
-
-
+			.flag_header {
+				color: $instagram;
+			}
 		}
-
-
 	}
-
 }
-
 
 .welcome_banner {
-
-height: inherit;
-margin-bottom: auto;
-z-index: 3;
-
-.top_styles {
-
-	margin-top: 5rem;
-
-}
-
-.welcome_bg {
-
-	background: url('../img/hex.png');
-	background-repeat: repeat-x repeat-y;
-}
-
-.content_welcome {
-
-	padding-top: 12rem;
-	padding-bottom: 10rem;
-	text-align: center;
-	font-family: 'Heebo', sans-serif;
-	color: $success;
-
-	.header_welcome_font_style {
-
+	height: inherit;
+	margin-bottom: auto;
+	z-index: 3;
+	.top_styles {
+		margin-top: 5rem;
+	}
+	.welcome_bg {
+		background: url('../img/hex.png');
+		background-repeat: repeat-x repeat-y;
+	}
+	.content_welcome {
+		padding-top: 12rem;
+		padding-bottom: 10rem;
+		text-align: center;
 		font-family: 'Heebo', sans-serif;
 		color: $success;
-
+		.header_welcome_font_style {
+			font-family: 'Heebo', sans-serif;
+			color: $success;
+		}
 	}
- }
 }
 
 .intro_banner_style {
-
 	width: 100vw;
 	height: inherit;
 	margin-top: auto;
@@ -143,94 +107,67 @@ z-index: 3;
 	// background: #00b09b;  /* fallback for old browsers */
 	// background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
 	// background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #00b09b;
+	color: #00b09b;
 	font-family: 'Abril Fatface', cursive;
-
 	.dropdown_styles {
-
 		color: $black;
 		font-family: 'Roboto', sans-serif;
 		font-size: 2rem;
 		// background-color: transparent;
-
 	}
-
 	.translation_button_styles {
-
 		color: $black;
 		font-family: 'Roboto', sans-serif !important;
 		// background-color: transparent;
-
 	}
-
 	.top_styles {
-
 		margin-top: 5rem;
-
 	}
-
 	.bottom_styles {
-
 		margin-bottom: 5rem;
 	}
-
 	.latin_style {
-     font-family: 'Roboto' , sans-serif;
-
-		 .etched-text {
+		font-family: 'Roboto', sans-serif;
+		.etched-text {
 			text-shadow: 0 2px white;
 			font-size: 1.5rem;
 			color: #ffffff;
-
-    }
+		}
 	}
 }
 
 .intro_green_about_card {
-
-	font-family: 'Roboto' , sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: $dark-gray;
 	background-color: #ffffff;
-
 	.header_background_style {
-
 		background-color: #ffffff;
 	}
 }
 
 .card-container-intros {
-
-		background-color: #fafafa;
-		height: inherit;
-
-		.card_copy_color {
-
-			color: $dark-gray;
-		}
-     .top_margin_style_space {
-
-			margin-top: 4rem;
-			margin-bottom: 8rem;
-		}
-      .about_margin_top {
-
-			margin-bottom: 2rem;
-			margin-top: 10rem;
-
-			.text_style_learn {
-
+	background-color: #fafafa;
+	height: inherit;
+	.card_copy_color {
+		color: $dark-gray;
+	}
+	.top_margin_style_space {
+		margin-top: 4rem;
+		margin-bottom: 8rem;
+	}
+	.about_margin_top {
+		margin-bottom: 2rem;
+		margin-top: 10rem;
+		.text_style_learn {
 			color: $instagram;
 			font-family: 'Heebo', sans-serif;
 			margin-top: 12rem;
 		}
 	}
-
-		.gradient_card_style_quo {
-
-			background-color: $white;
-			color: $google;
-
-			.etched-text {
+	.gradient_card_style_quo {
+		background-color: $white;
+		color: $google;
+		.etched-text {
 			text-shadow: 0 2px white;
 			font-family: 'Montserrat', sans-serif;
 			font-size: 1.5rem;
@@ -238,17 +175,12 @@ z-index: 3;
 			color: #b8bec5;
 			margin-top: 2rem !important;
 			margin-bottom: 5rem !important;
-
-   }
-
-}
-
-		.gradient_card_style_vid {
-
-			background-color: $white;
-			color: $youtube;
-
-			.etched-text {
+		}
+	}
+	.gradient_card_style_vid {
+		background-color: $white;
+		color: $youtube;
+		.etched-text {
 			text-shadow: 0 2px white;
 			font-family: 'Montserrat', sans-serif;
 			font-size: 1.5rem;
@@ -256,220 +188,160 @@ z-index: 3;
 			color: #b8bec5;
 			margin-top: 5rem !important;
 			margin-bottom: 5rem !important;
-
-    }
-}
-
-		.gradient_card_style_about {
-
-			background-color: $white;
-
-			.etched-text {
-		  text-shadow: 0 2px white;
+		}
+	}
+	.gradient_card_style_about {
+		background-color: $white;
+		.etched-text {
+			text-shadow: 0 2px white;
 			font-family: 'Montserrat', sans-serif;
-		  font-size: 1.5rem;
-		  font-weight: bold;
-		  color: #b8bec5;
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #b8bec5;
 			margin-top: 5rem !important;
 			margin-bottom: 5rem !important;
 		}
-
 	}
 }
 
 .mobile_menu_margin {
-
 	margin-bottom: auto;
-
 }
 
 .header-margin {
-
 	margin-top: 1rem;
 	color: $instagram;
-
 }
 
-.card_intro_headers{
-
+.card_intro_headers {
 	margin-top: 8rem;
 	margin-bottom: 8rem;
-
-.card-style {
-
-	font-family: 'Roboto', sans-serif;
-  }
-
+	.card-style {
+		font-family: 'Roboto', sans-serif;
+	}
 }
 
 .nav-header-margin {
-
 	// margin-top: 1rem;
 	color: $instagram;
 	overflow: auto;
 	position: fixed;
-  height: calc(100vh);
-  background: #ffffff;
-  padding-top: 5rem;
-  padding-bottom: 100px;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+	height: calc(100vh);
+	background: #ffffff;
+	padding-top: 5rem;
+	padding-bottom: 100px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	font-family: 'Roboto', sans-serif;
-	box-shadow: 1px 1px 3px #767676 ;
+	box-shadow: 1px 1px 3px #767676;
 	margin-right: auto;
-
-.submenu-toggle {
-
-	color: $instagram !important;
-}
-
-		.nav-item-spacing {
-       padding-top: .5rem;
-
-			 li ul a {
-
-				 color: $instagram;
-				 font-family: 'Roboto', sans-serif;
-			 }
-
-			 .menu-style {
-
-				 color: $instagram;
-			 }
-
-			 a {
-         color: $instagram;
-				 font-family: 'Roboto', sans-serif;
-
-			 }
+	.submenu-toggle {
+		color: $instagram !important;
+	}
+	.nav-item-spacing {
+		padding-top: .5rem;
+		li ul a {
+			color: $instagram;
+			font-family: 'Roboto', sans-serif;
 		}
+		.menu-style {
+			color: $instagram;
+		}
+		a {
+			color: $instagram;
+			font-family: 'Roboto', sans-serif;
+		}
+	}
 }
 
 // End of Navigation css
-
 .goal_section {
-
 	height: inherit;
 	padding-top: auto;
 	padding-bottom: auto;
-
-.goal_section_image {
-
-	background: url(../img/smile_red.jpg) center / cover no-repeat;
-	height: 35rem;
-	background-size: cover;
-
-}
-
-.goal_inspire_image {
-
-	background: url(../img/senior_couple_bw.jpg) center / cover no-repeat;
-	height: 35rem;
-	background-size: cover;
-
-}
-
-.goal_quote {
-
-	height: 35rem;
-
-	.text_margin_styles {
-
-		margin-top: 4rem;
-		margin-bottom: 10.5rem;
+	.goal_section_image {
+		background: url(../img/smile_red.jpg) center / cover no-repeat;
+		height: 35rem;
+		background-size: cover;
 	}
-
-	.quote_center_style {
-
-		display: flex;
-	  justify-content: center;
-	  align-items: center;
-		color: $dark-gray;
-		font-size: 3rem;
+	.goal_inspire_image {
+		background: url(../img/senior_couple_bw.jpg) center / cover no-repeat;
+		height: 35rem;
+		background-size: cover;
 	}
-
-	.quote_icon_color {
-
-		 color: $instagram;
-
+	.goal_quote {
+		height: 35rem;
+		.text_margin_styles {
+			margin-top: 4rem;
+			margin-bottom: 10.5rem;
+		}
+		.quote_center_style {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: $dark-gray;
+			font-size: 3rem;
+		}
+		.quote_icon_color {
+			color: $instagram;
+		}
+		.goal_center_flex_style {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.etched-text {
+			text-shadow: 0 2px white;
+			margin-top: 1.5rem;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 1.3rem;
+			color: $instagram;
+			text-align: center;
+		}
 	}
-
-  .goal_center_flex_style {
-	display: flex;
-  justify-content: center;
-  align-items: center;
-
-	}
-
-	.etched-text {
-	 text-shadow: 0 2px white;
-	 margin-top: 1.5rem;
-	 font-family: 'Montserrat', sans-serif;
-	 font-size: 1.3rem;
-	 color: $instagram;
-	 text-align: center;
-
-	 }
-  }
 }
 
 .video_section {
 	height: inherit;
 	padding-top: 4rem;
 	padding-bottom: 6rem;
-
 	.video_home_styles {
-
 		font-size: 1.2rem;
 		margin-bottom: 4rem;
 		font-family: 'Heebo', sans-serif;
-
 	}
-
 	.etched-text {
-	 text-shadow: 0 2px white;
-	 margin-top: 1.5rem;
-	 font-size: 3rem;
-	 color: $google;
-	 text-align: center;
-	 font-family: 'Heebo', sans-serif;
-
+		text-shadow: 0 2px white;
+		margin-top: 1.5rem;
+		font-size: 3rem;
+		color: $google;
+		text-align: center;
+		font-family: 'Heebo', sans-serif;
 	}
-
 	.videos_centered_btn {
-
-	border-radius: 0px;
-	align-content: center;
-	padding-top: 3rem;
-
+		border-radius: 0px;
+		align-content: center;
+		padding-top: 3rem;
 	}
 }
 
-
-
 .headline-type-style {
-
 	font-family: 'Abril Fatface', cursive;
 }
 
 .banner-standard-style {
-
 	margin-bottom: auto;
 	background: url(../img/girlfriends.jpg) center / cover no-repeat;
 	height: 45rem;
-
 	.quote_banner_style {
-
 		margin-top: 7rem;
-    height: inherit;
+		height: inherit;
 		color: #ffffff;
 		font-size: 3rem;
 		font-family: 'Abril Fatface', cursive;
 	}
-
 	.margin-banner-style {
-     margin-bottom: 8rem;
-
+		margin-bottom: 8rem;
 	}
 }
 
@@ -479,46 +351,37 @@ z-index: 3;
 	background: url(../img/wedding.jpg) center / cover no-repeat;
 	height: 30rem;
 	width: 100vw;
-
 	.margin-banner-style {
-     margin-bottom: 8rem;
-
+		margin-bottom: 8rem;
 	}
 }
 
 .banner-standard-style-3 {
-
 	margin-bottom: auto;
 	margin-top: auto;
 	background: url(../img/love-hands.jpg) center / cover no-repeat;
 	height: 30rem;
 	// width: 100vw;
-
 	.quote_banner_style {
-
 		margin-top: 8.2rem;
 		color: $pinterest;
 		font-size: 3rem;
 		font-family: 'Roboto', sans-serif;
 	}
-
 	.margin-banner-style {
-     margin-bottom: 8rem;
-
+		margin-bottom: 8rem;
 	}
 }
 
 .banner-standard-style-4 {
-
 	margin-bottom: auto;
 	margin-top: auto;
 	background: url(../img/skate_kid.jpg) center / cover no-repeat;
 	height: 39rem;
-
 }
-.manifesto {
-  margin-top: 3rem;
 
+.manifesto {
+	margin-top: 3rem;
 }
 
 .definition {
@@ -526,81 +389,73 @@ z-index: 3;
 }
 
 .dictionary-title {
-
 	font-family: 'Roboto', sans-serif;
-  margin-top: 3.1;
+	margin-top: 3.1;
 }
 
 .quote_banner_gradient_style {
-
 	height: 37rem;
 	margin-top: auto;
 	margin-bottom: auto;
-	background: #FEAC5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #FEAC5E;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Abril Fatface', cursive;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
 		font-size: 2.6rem;
 	}
 }
-.banner-standard-style-lama {
 
+.banner-standard-style-lama {
 	height: inherit;
 	margin-top: auto;
 	margin-bottom: auto;
-	background: #56CCF2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #56CCF2;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2F80ED, #56CCF2);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
 	.text-banner-style {
-
 		color: #ffffff;
-  	font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		margin-top: 14rem;
-    margin-bottom: 10rem;
+		margin-bottom: 10rem;
 		font-size: 2.6rem;
-
 	}
 }
-.banner-standard-style-skate-life {
 
+.banner-standard-style-skate-life {
 	margin-bottom: auto;
 	margin-top: auto;
 	background: url(../img/skate_kid.jpg) center / cover no-repeat;
 	height: 45rem;
-
 	.quote_banner_style {
-
 		margin-top: 12rem;
 		color: $pinterest;
 		font-size: 3rem;
 		font-family: 'Roboto', sans-serif;
-
 	}
 }
 
 .banner-standard-style-peacefullness {
-
 	margin-bottom: auto;
 	margin-top: auto;
 	background: url(../img/beach_life.jpg) center / cover no-repeat;
 	height: 45rem;
-
 	.quote_banner_style {
-
 		margin-top: 12rem;
 		color: $twitter;
 		font-size: 3rem;
 		font-family: 'Roboto', sans-serif;
-
 	}
 }

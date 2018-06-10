@@ -28,6 +28,8 @@ body {
     .intro_container_style_retro .flag_callout_intro .flag_content {
       padding-top: 10rem;
       font-family: 'Heebo', sans-serif; }
+      .intro_container_style_retro .flag_callout_intro .flag_content .flag_header {
+        color: #c32aa3; }
 
 .welcome_banner {
   height: inherit;
@@ -68,14 +70,14 @@ body {
   .intro_banner_style .bottom_styles {
     margin-bottom: 5rem; }
   .intro_banner_style .latin_style {
-    font-family: 'Roboto' , sans-serif; }
+    font-family: 'Roboto', sans-serif; }
     .intro_banner_style .latin_style .etched-text {
       text-shadow: 0 2px white;
       font-size: 1.5rem;
       color: #ffffff; }
 
 .intro_green_about_card {
-  font-family: 'Roboto' , sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #8a8a8a;
   background-color: #ffffff; }
   .intro_green_about_card .header_background_style {
