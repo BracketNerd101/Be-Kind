@@ -10,16 +10,20 @@
       color: #b8bec5; }
 
 .title-bar {
-  background-color: #fafafa; }
+  background-color: rgba(195, 42, 163, 0.5); }
 
 .title-bar-title {
-  color: #8a8a8a;
+  color: #fefefe;
+  background-color: rgba(195, 42, 163, 0.8) !important;
   text-align: center;
+  height: inherit;
   position: fixed;
   z-index: 10; }
   .title-bar-title .menu_text_size_color {
     font-size: 1.2rem;
-    color: #333333; }
+    margin-top: 0.23rem;
+    margin-bottom: 0.23rem;
+    color: #fefefe; }
   .title-bar-title .menu_title_style {
     color: #8a8a8a;
     text-align: center; }
